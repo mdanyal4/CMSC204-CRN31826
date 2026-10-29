@@ -1,30 +1,29 @@
-# Java Data Structures and Algorithms — CMSC204
+# Java Data Structures and Algorithms Projects
 
-Computer Science II coursework organized into six Java assignments and supporting labs. The repository shows implementations and exercises involving stacks, queues, linked lists, trees, graphs, and testing.
+A coursework archive of Java implementations exploring core data structures, algorithms, testing, and object-oriented design. Each project is independent and should be built separately.
 
-## Assignments
+## Project highlights
 
-| Project | Main source files |
-| --- | --- |
-| Password validation | `PasswordCheckerUtility.java` and custom exception classes |
-| Expression notation with stacks and queues | `Notation.java`, `MyStack.java`, `MyQueue.java` |
-| Doubly linked lists | `BasicDoubleLinkedList.java`, `SortedDoubleLinkedList.java` |
-| Course database | `CourseDBStructure.java`, `CourseDBManager.java`, `CourseDBElement.java` |
-| Morse code conversion | `MorseCodeTree.java`, `MorseCodeConverter.java`, `TreeNode.java` |
-| Town and road graph | `Graph.java`, `Town.java`, `Road.java`, `TownGraphManager.java` |
+| Project | Focus | Directory |
+| --- | --- | --- |
+| Password checker | Input validation and custom exceptions | [`01-password-checker`](01-password-checker/) |
+| Expression notation | Stacks, queues, and infix/postfix conversion | [`02-notation-stack-queue`](02-notation-stack-queue/) |
+| Linked lists | Generic doubly linked lists and sorted insertion | [`03-linked-list`](03-linked-list/) |
+| Course database | Hash-based storage and manager abstractions | [`04-course-database`](04-course-database/) |
+| Morse code converter | Binary trees and traversal | [`05-morse-code`](05-morse-code/) |
+| Town and road graph | Graph modeling and shortest-path operations | [`06-town-graph`](06-town-graph/) |
 
-Each assignment has its own `src/` directory. Supporting labs cover recursion, generics, JUnit, threads, chat clients and servers, and data-structure worksheets.
+Supporting labs cover recursion, generics, JUnit, threads, chat clients and servers, heap sort, hashing, Huffman trees, and graph operations.
 
-## Run and test
+## Run locally
 
-1. Install a JDK and open an individual assignment in a Java IDE.
-2. Set that assignment's `src/` directory as the source root.
-3. Add the JUnit dependency required by its test imports.
-4. For JavaFX drivers, configure JavaFX separately.
-5. Run the selected driver or test class.
+1. Install a JDK and open one project in a Java IDE.
+2. Mark the selected project's `src/` directory as a source root.
+3. Add JUnit or JavaFX when required by that project.
+4. Build and run the relevant driver or test class.
 
-The repository is not configured as a single Maven or Gradle application. Build assignments separately to avoid conflicts between repeated class names. Included tests document expected behavior; this README does not claim that every test currently passes.
+This repository is not a single Maven or Gradle application. Build projects individually because some exercises reuse class names.
 
-## Coursework and attribution
+## Coursework note
 
-This repository preserves coursework, assignment documents, interfaces, GUI scaffolding, and test files. Some materials may be supplied by the course. Preserve file-level attribution and use the work in accordance with academic-integrity requirements.
+This repository preserves completed coursework. Some assignment documents, starter interfaces, GUI scaffolding, and tests may be course-provided; their presence does not mean every file was independently authored. Use the material in accordance with academic-integrity requirements.
